@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RAImagePicker_Example' do
+  pod 'RAImagePicker', :path => '../'
+
+  target 'RAImagePicker_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
