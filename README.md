@@ -9,6 +9,10 @@
 
 RAImagePicker is a protocol-oriented framework that provides custom features from the built-in Image Picker Edit.
 
+<br>
+<img src="https://media.giphy.com/media/3ohs7QgfzREzPpDsk0/giphy.gif"/>
+<br>
+
 ## Overview
 
 Object `RAImagePickerController` manages user interactions and delivers the results of those interactions to a delegate object.
@@ -181,11 +185,6 @@ func imagePicker(controller: RAImagePickerController, willDisplayAssetItem cell:
 let imagePicker = RAImagePickerController()
 navigationController.present(imagePicker, animated: true, completion: nil)
 ```
-
-## Screenshots
-<br>
-<img src="https://media.giphy.com/media/3ohs7QgfzREzPpDsk0/giphy.gif"/>
-<br>
 
 ## Example
 
