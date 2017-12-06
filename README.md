@@ -69,7 +69,9 @@ To configure RAImagePicker to support desired media type use `captureSettings` s
 - [x] video [Support Videos Only]
 - [x] photoAndLivePhoto [Support Photos & Live Photos]
 - [x] photoAndVideo [Support Videos & Photos]
+
 <br>
+
 **Example:**
 ```swift
 let imagePicker = RAImagePickerController()
@@ -77,7 +79,9 @@ imagePicker.captureSettings.cameraMode = .photoAndLivePhoto
 ```
 
 To save the captured photos to the gallery. Set the flag `savesCapturedPhotosToPhotoLibrary` to true.
+
 <br>
+
 **Example:**
 ```swift
 let imagePicker = RAImagePickerController()
