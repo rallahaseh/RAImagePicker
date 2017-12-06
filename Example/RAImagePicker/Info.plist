@@ -35,5 +35,11 @@
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Need Access to Camera to Capture Photos and Record Videos</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Need Access to Microphone  for Recording Videos</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Need Access to Photos for Picking Images</string>
 </dict>
 </plist>

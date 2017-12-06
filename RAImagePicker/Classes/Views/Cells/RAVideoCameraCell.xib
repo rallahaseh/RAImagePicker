@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="Ble-5h-bOG" userLabel="Video Camera Cell" customClass="RAVideoCameraCell" customModule="RAImagePicker" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="219" height="259"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="219" height="259"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IHT-k1-Qy2" customClass="RARecordVideoButton" customModule="RAImagePicker" customModuleProvider="target">
+                        <rect key="frame" x="87.5" y="210" width="44" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="44" id="L7R-fC-0JM"/>
+                            <constraint firstAttribute="height" constant="44" id="swi-vl-FS7"/>
+                        </constraints>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <action selector="recordButtonTapped:" destination="Ble-5h-bOG" eventType="touchUpInside" id="Gzi-rw-I77"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dLf-n0-W68">
+                        <rect key="frame" x="170" y="215" width="44" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="CBG-fn-Ldp"/>
+                            <constraint firstAttribute="width" constant="44" id="eYV-sf-v7o"/>
+                        </constraints>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <state key="normal" image="icon-flip-camera"/>
+                        <connections>
+                            <action selector="flipButtonTapped:" destination="Ble-5h-bOG" eventType="touchUpInside" id="Yd5-py-9Xu"/>
+                        </connections>
+                    </button>
+                    <view alpha="0.30000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mSw-He-d13">
+                        <rect key="frame" x="0.0" y="0.0" width="219" height="25"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="xvl-Tq-gbi"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="justified" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CZt-2C-iZM" customClass="RARecordDurationLabel" customModule="RAImagePicker" customModuleProvider="target">
+                        <rect key="frame" x="81" y="4" width="58.5" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="58.5" id="ryl-NU-BHL"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="13"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="mSw-He-d13" firstAttribute="top" secondItem="Ble-5h-bOG" secondAttribute="top" id="Edf-ji-9Xc"/>
+                <constraint firstItem="IHT-k1-Qy2" firstAttribute="centerX" secondItem="TvJ-mY-O2O" secondAttribute="centerX" id="Gzu-9j-rE0"/>
+                <constraint firstItem="TvJ-mY-O2O" firstAttribute="bottom" secondItem="IHT-k1-Qy2" secondAttribute="bottom" constant="5" id="LkA-iH-d3C"/>
+                <constraint firstItem="CZt-2C-iZM" firstAttribute="centerX" secondItem="TvJ-mY-O2O" secondAttribute="centerX" id="PGA-D7-dGu"/>
+                <constraint firstItem="CZt-2C-iZM" firstAttribute="top" secondItem="TvJ-mY-O2O" secondAttribute="top" constant="4" id="aFz-XK-nKf"/>
+                <constraint firstItem="TvJ-mY-O2O" firstAttribute="bottom" secondItem="dLf-n0-W68" secondAttribute="bottom" id="pur-NM-OOv"/>
+                <constraint firstAttribute="trailing" secondItem="mSw-He-d13" secondAttribute="trailing" id="tal-Dt-nYt"/>
+                <constraint firstItem="mSw-He-d13" firstAttribute="leading" secondItem="Ble-5h-bOG" secondAttribute="leading" id="x3d-g2-hl6"/>
+                <constraint firstItem="TvJ-mY-O2O" firstAttribute="trailing" secondItem="dLf-n0-W68" secondAttribute="trailing" constant="5" id="zt3-7T-ca9"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="TvJ-mY-O2O"/>
+            <size key="customSize" width="219" height="259"/>
+            <connections>
+                <outlet property="flipButton" destination="dLf-n0-W68" id="pkn-lm-f7O"/>
+                <outlet property="recordButton" destination="IHT-k1-Qy2" id="qkx-8K-Y6N"/>
+                <outlet property="recordLabel" destination="CZt-2C-iZM" id="mLC-SF-acY"/>
+            </connections>
+            <point key="canvasLocation" x="-501.5" y="-180.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="icon-flip-camera" width="28" height="22"/>
+    </resources>
+</document>

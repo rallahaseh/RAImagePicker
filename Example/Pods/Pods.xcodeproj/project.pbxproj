@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04D17AE8A3BDBF654C15BD41836664B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED174831868E50CF4F67DCD37F35DB8 /* Foundation.framework */; };
+		1C7DECBF674D93309BD315187BACDA46 /* RAStationaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B655C02BBD87D116DE3C76637BE6C121 /* RAStationaryButton.swift */; };
+		1F50E3D1F1E1C3AF28E4AA8418FE8494 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7EAB36CD391CEF03EEBA9B1783CBCE4 /* Photos.framework */; };
+		379063A315B93CF500555496ED2095B4 /* RAShutterButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99CA08E9AB7FC53A18751E2F409DDA28 /* RAShutterButton.swift */; };
+		4A97D9EBA4EA94C28331866527B853EA /* RAActionCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = BFCEAD3F3DC66640E4E265CF6FF4A007 /* RAActionCell.xib */; };
+		5216D6D3FB28ACA3786224218D9A9CAE /* RAImagePickerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F0CD5A71E53E31395A2A5326C55731 /* RAImagePickerDelegate.swift */; };
+		545D77670C3791A22B19641D7893292D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1EBE38E0A5A4E1BBBC3B48AB791C941 /* UIKit.framework */; };
+		58A9EF8041E4211FEAB357257E5A5F9E /* RAVideoDataOuptutSampleBufferDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB9BDBBA54F52F30F1D6055558B61F8 /* RAVideoDataOuptutSampleBufferDelegate.swift */; };
+		58FF98CCA686E44763059E9A4A1263A8 /* RACellRegistrator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B5A283E539BACB2EB0EF106189AD0FB /* RACellRegistrator.swift */; };
+		63FC6C98744E513486D0236B068560F6 /* RARecordDurationLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 176075875C66A0A89D72E5B3FF3B3AC5 /* RARecordDurationLabel.swift */; };
+		698410A3F4CA88F70A7AD4A248B3DDFE /* RAAVPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0579844E29857B718A985546B4B59FA /* RAAVPreviewView.swift */; };
+		6F2D927694CCB338C419A4EE703AEB2D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453666E08D6A04BF370C9A5B534C7FBD /* AVFoundation.framework */; };
+		6FAF898E7403487F7E134F76CCE9AA98 /* RAVideoCameraCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = F0923F28391F0388D6E5FC5DE6873D50 /* RAVideoCameraCell.xib */; };
+		71CB49F92537204CC55CCAF0637FFD4F /* RACameraCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C10FCAD6FBD00D678787453C2EE8488 /* RACameraCollectionViewCell.swift */; };
+		73FE51197B9DB1954BA629D36BAC1CDC /* UIImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 799482B6FBED8D489CA3BA4C35DC9409 /* UIImageEffects.m */; };
+		7932BBC6388A9D43CF1A8FCAD98601A8 /* UIImageEffects.h in Headers */ = {isa = PBXBuildFile; fileRef = 15DA3BFD25DBF6D2908BB95DDD8D3451 /* UIImageEffects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79A2AAA0E63DEE44D65F98B9346EE771 /* RAImagePickerAssetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030B5664784C03896834D355DB956444 /* RAImagePickerAssetModel.swift */; };
+		7F27C131EAEB23B17B24769F88F3DE8B /* RAImagePickerLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BBA7BCE3C95CAA48625290EF93DD259 /* RAImagePickerLayout.swift */; };
+		82CAF67A2B3ACDAB172AA71C56158FBE /* RAImagePicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4682282B3D5B1A744D73E8F9EE2D4F /* RAImagePicker-dummy.m */; };
+		8325FAFFB91D7C9722A26F4AA3CD18E2 /* RACaptureSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F33CF7F4E54DB1884ADE5A3BA13A15 /* RACaptureSettings.swift */; };
+		8F3B5AD786055A1A8EADCD8963DBBA62 /* RALivePhotoCameraCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7184D21C7E0AD0DDC632877EB9A9581 /* RALivePhotoCameraCell.swift */; };
+		945547F21CDC3DF8936EC634159A6C26 /* Pods-RAImagePicker_Example-RAImagePicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DE691CFB0D513E3A6646791A86F3AAA /* Pods-RAImagePicker_Example-RAImagePicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A41194CD3F9F169439F53A053F23EB5A /* RACarvedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D392881A7DE1C4CCF161B358C623370 /* RACarvedLabel.swift */; };
+		ACFE824FE4BEA2B2ED0D2A2CA1B84340 /* Pods-RAImagePicker_Example-RAImagePicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5275F41F505A279E75081CAF8D7AF1B3 /* Pods-RAImagePicker_Example-RAImagePicker_Tests-dummy.m */; };
+		B11E5DA9E2E0DBFC6CECFD894B917A3E /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F0C9B77BD33EF37885D21429940007 /* Media.xcassets */; };
+		B463701DABB8D3C672C0EB3A12BC228A /* RAImagePickerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F783BB63C3075A1568AAF73656D8215A /* RAImagePickerDataSource.swift */; };
+		B4AC385A1EA5CF6F15EC5BAED710EA6A /* RAImagePickerSelectionPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2D537BFB0BDCD8414B745E708FF113D /* RAImagePickerSelectionPolicy.swift */; };
+		B540D7CF63220452AD9B5E20B601A63C /* RAImagePickerView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 9CC10939BEC96B535DA9357E1F609500 /* RAImagePickerView.xib */; };
+		B6064FCC2DE64D85C868E56858E64E31 /* RAImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A291C286D4F9BA261356D7E8546D631 /* RAImagePickerView.swift */; };
+		B644B04F71CFA6B465D0FEAB3172AD01 /* RAActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3612D5AD072F328BB5D94A0D5247801 /* RAActionCell.swift */; };
+		C1A37852744F6472F4C6685274F1ACE0 /* RAAppearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429030FEF4D09FC6D66CDDEA29DAAD7A /* RAAppearance.swift */; };
+		C34FED521F84B2FD86A4CE790575DA66 /* Pods-RAImagePicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3CEE2804DCB896EECFA3AC1EADAE99 /* Pods-RAImagePicker_Example-dummy.m */; };
+		CB844CA2C9FA9568292ABAD10392AEFE /* RAImagePickerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2671353A3E3C35DD51ABB306A31C636E /* RAImagePickerController.swift */; };
+		CC91012E69CB5293F1BE77CA52724A88 /* RAVideoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D24AA183359CAD126BF5D104E686924D /* RAVideoCaptureDelegate.swift */; };
+		D1C6897EB7D9897F9714D2CB389764B0 /* RARecordButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012EAC120AE225A21D9A9938A3791567 /* RARecordButton.swift */; };
+		D64CA79CD40F42F7B1FB90C7AEE52FFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED174831868E50CF4F67DCD37F35DB8 /* Foundation.framework */; };
+		DC9958B79089804159EF6C4E00CC4094 /* RAImagePicker-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F6E18E2147D9B300E4CAB72DA9D19BD /* RAImagePicker-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5B7DFDBF635BCDA89DB3D6C1FFF5B54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED174831868E50CF4F67DCD37F35DB8 /* Foundation.framework */; };
+		E888697072E19B5BE1C2638C30D0C8AC /* RAImagePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5244DF2B503476B1992E923F6AD59725 /* RAImagePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E908BBD7C8819B438625A6D648E3B1EE /* RAVideoCameraCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C38A7FC678E62C060A90CC5C35805F6 /* RAVideoCameraCell.swift */; };
+		EC80D39C9C9C49A6DCFD9A242F32D3F3 /* RAAssetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41D17586713E638081969F7009D2F2A /* RAAssetCell.swift */; };
+		ECD5DC8B102B91798BC21DA1B1AC7EDF /* Pods-RAImagePicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4F07649CDCCD1A046FDB63A1673741F /* Pods-RAImagePicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F325516ECD7FFE952509F73FDF3025F7 /* RAPhotoCaptureDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 333F65A3F2FB15ADF9EA2A760B8CC8D5 /* RAPhotoCaptureDelegate.swift */; };
+		F936BB33D8EFFC93246BB7F02B404BAE /* RALivePhotoCameraCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = D6F815571D8F3F27AA1D2B04EA36D9E8 /* RALivePhotoCameraCell.xib */; };
+		FC2C690CDE28B164AA971517CC05C294 /* RALayoutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DC5B03F8E8D2D613046B068125C286 /* RALayoutModel.swift */; };
+		FF92F0F0A1A90AA2A59ECFEC8B2E1F92 /* RACaptureSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7CB2B80B83B0832324F975C12C1C13 /* RACaptureSession.swift */; };
+		FFFB627DFFA9B0563AD4C5F0D82C38D1 /* RALayoutConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBC04E92A258D319BCCF33367723E82 /* RALayoutConfiguration.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4FFEEB81D0FB5205A52D488B383C0B70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DF0C348AE867B5C584E0E352010AB9E;
+			remoteInfo = RAImagePicker;
+		};
+		B449F361A214117637D00DDE4622797A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DF0C348AE867B5C584E0E352010AB9E;
+			remoteInfo = RAImagePicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012EAC120AE225A21D9A9938A3791567 /* RARecordButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RARecordButton.swift; sourceTree = "<group>"; };
+		027F013640574045E59659A7ACB8AB44 /* Pods_RAImagePicker_Example_RAImagePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RAImagePicker_Example_RAImagePicker_Tests.framework; path = "Pods-RAImagePicker_Example-RAImagePicker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		030B5664784C03896834D355DB956444 /* RAImagePickerAssetModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RAImagePickerAssetModel.swift; sourceTree = "<group>"; };
+		071D4162EB57540830699F5554FD4FE9 /* Pods-RAImagePicker_Example-RAImagePicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RAImagePicker_Example-RAImagePicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0B96F36590B988E3E0CF6C5B9094316A /* Pods-RAImagePicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RAImagePicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0C38A7FC678E62C060A90CC5C35805F6 /* RAVideoCameraCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RAVideoCameraCell.swift; sourceTree = "<group>"; };
+		1552378526C203323721A7A00C5772E3 /* Pods-RAImagePicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RAImagePicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		15B363BD450B0C53E83C65DDF274BC55 /* Pods-RAImagePicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RAImagePicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		15DA3BFD25DBF6D2908BB95DDD8D3451 /* UIImageEffects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UIImageEffects.h; sourceTree = "<group>"; };
+		176075875C66A0A89D72E5B3FF3B3AC5 /* RARecordDurationLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RARecordDurationLabel.swift; sourceTree = "<group>"; };
+		1AD14EFB77A4738CA078AE90D6B3BF21 /* Pods-RAImagePicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RAImagePicker_Example.modulemap"; sourceTree = "<group>"; };
+		2671353A3E3C35DD51ABB306A31C636E /* RAImagePickerController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RAImagePickerController.swift; sourceTree = "<group>"; };
+		29F33CF7F4E54DB1884ADE5A3BA13A15 /* RACaptureSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RACaptureSettings.swift; sourceTree = "<group>"; };
+		2A291C286D4F9BA261356D7E8546D631 /* RAImagePickerView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RAImagePickerView.swift; sourceTree = "<group>"; };
+		2CBC04E92A258D319BCCF33367723E82 /* RALayoutConfiguration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RALayoutConfiguration.swift; sourceTree = "<group>"; };
+		32F118E055E00334BB34C1DAB4BC4BA1 /* Pods-RAImagePicker_Example-RAImagePicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RAImagePicker_Example-RAImagePicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		333F65A3F2FB15ADF9EA2A760B8CC8D5 /* RAPhotoCaptureDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RAPhotoCaptureDelegate.swift; sourceTree = "<group>"; };
+		3BBA7BCE3C95CAA48625290EF93DD259 /* RAImagePickerLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RAImagePickerLayout.swift; sourceTree = "<group>"; };
+		3D74DBEBDCCE4E603CBAE6B548293D05 /* RAImagePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RAImagePicker.modulemap; sourceTree = "<group>"; };
+		3ED174831868E50CF4F67DCD37F35DB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3F7CB2B80B83B0832324F975C12C1C13 /* RACaptureSession.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RACaptureSession.swift; sourceTree = "<group>"; };
+		429030FEF4D09FC6D66CDDEA29DAAD7A /* RAAppearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RAAppearance.swift; sourceTree = "<group>"; };
+		446C59980336A1230F9806B7AE9A1426 /* Pods-RAImagePicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RAImagePicker_Example-resources.sh"; sourceTree = "<group>"; };
+		453666E08D6A04BF370C9A5B534C7FBD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		485DF686C05E69048D1B442307CD79E1 /* Pods-RAImagePicker_Example-RAImagePicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RAImagePicker_Example-RAImagePicker_Tests.modulemap"; sourceTree = "<group>"; };
+		4DBB5BBC60DF5D2CF836D4A95C6103D8 /* Pods-RAImagePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RAImagePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5244DF2B503476B1992E923F6AD59725 /* RAImagePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAImagePicker-umbrella.h"; sourceTree = "<group>"; };
+		5275F41F505A279E75081CAF8D7AF1B3 /* Pods-RAImagePicker_Example-RAImagePicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RAImagePicker_Example-RAImagePicker_Tests-dummy.m"; sourceTree = "<group>"; };
+		56C147839C40FA08086031A31715196A /* Pods-RAImagePicker_Example-RAImagePicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RAImagePicker_Example-RAImagePicker_Tests-resources.sh"; sourceTree = "<group>"; };
+		5DE691CFB0D513E3A6646791A86F3AAA /* Pods-RAImagePicker_Example-RAImagePicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RAImagePicker_Example-RAImagePicker_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5F6E18E2147D9B300E4CAB72DA9D19BD /* RAImagePicker-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAImagePicker-Bridging-Header.h"; sourceTree = "<group>"; };
+		6D392881A7DE1C4CCF161B358C623370 /* RACarvedLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RACarvedLabel.swift; sourceTree = "<group>"; };
+		6E4682282B3D5B1A744D73E8F9EE2D4F /* RAImagePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RAImagePicker-dummy.m"; sourceTree = "<group>"; };
+		6F9C57B6D9DEC02AF804055AB91B4BD0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		799482B6FBED8D489CA3BA4C35DC9409 /* UIImageEffects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UIImageEffects.m; sourceTree = "<group>"; };
+		79DC5B03F8E8D2D613046B068125C286 /* RALayoutModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RALayoutModel.swift; sourceTree = "<group>"; };
+		7B5A283E539BACB2EB0EF106189AD0FB /* RACellRegistrator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RACellRegistrator.swift; sourceTree = "<group>"; };
+		7C10FCAD6FBD00D678787453C2EE8488 /* RACameraCollectionViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RACameraCollectionViewCell.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94C4DDA0A5C4156EA26FEAA6D9ADC0ED /* RAImagePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RAImagePicker.framework; path = RAImagePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		972E2347E02B1FF66C9804BD6155078C /* Pods-RAImagePicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RAImagePicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		99CA08E9AB7FC53A18751E2F409DDA28 /* RAShutterButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RAShutterButton.swift; sourceTree = "<group>"; };
+		9CC10939BEC96B535DA9357E1F609500 /* RAImagePickerView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = RAImagePickerView.xib; sourceTree = "<group>"; };
+		A693104218D2B62B43036C11F73AC8DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0579844E29857B718A985546B4B59FA /* RAAVPreviewView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RAAVPreviewView.swift; sourceTree = "<group>"; };
+		B655C02BBD87D116DE3C76637BE6C121 /* RAStationaryButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RAStationaryButton.swift; sourceTree = "<group>"; };
+		B949100F342147861102E6039FA86E18 /* Pods-RAImagePicker_Example-RAImagePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RAImagePicker_Example-RAImagePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BB43A7D9341651CC4594FD4424B81B8B /* Pods-RAImagePicker_Example-RAImagePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RAImagePicker_Example-RAImagePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE7C10F1FFDFF3613937CE143B27BC5E /* Pods_RAImagePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RAImagePicker_Example.framework; path = "Pods-RAImagePicker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCEAD3F3DC66640E4E265CF6FF4A007 /* RAActionCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = RAActionCell.xib; sourceTree = "<group>"; };
+		C3612D5AD072F328BB5D94A0D5247801 /* RAActionCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RAActionCell.swift; sourceTree = "<group>"; };
+		C4F07649CDCCD1A046FDB63A1673741F /* Pods-RAImagePicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RAImagePicker_Example-umbrella.h"; sourceTree = "<group>"; };
+		C7EAB36CD391CEF03EEBA9B1783CBCE4 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Photos.framework; sourceTree = DEVELOPER_DIR; };
+		CA042F2313B6BFB6CDACD6470219C2D0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBCB86D32D2B4C5621DBDF0C5050185A /* Pods-RAImagePicker_Example-RAImagePicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RAImagePicker_Example-RAImagePicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		D0F0C9B77BD33EF37885D21429940007 /* Media.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Media.xcassets; path = RAImagePicker/Assets/Media.xcassets; sourceTree = "<group>"; };
+		D24AA183359CAD126BF5D104E686924D /* RAVideoCaptureDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RAVideoCaptureDelegate.swift; sourceTree = "<group>"; };
+		D41D17586713E638081969F7009D2F2A /* RAAssetCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RAAssetCell.swift; sourceTree = "<group>"; };
+		D6F815571D8F3F27AA1D2B04EA36D9E8 /* RALivePhotoCameraCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = RALivePhotoCameraCell.xib; sourceTree = "<group>"; };
+		DF22830EF444B88F320071BA67601256 /* RAImagePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RAImagePicker-prefix.pch"; sourceTree = "<group>"; };
+		F0923F28391F0388D6E5FC5DE6873D50 /* RAVideoCameraCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = RAVideoCameraCell.xib; sourceTree = "<group>"; };
+		F1EBE38E0A5A4E1BBBC3B48AB791C941 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F21E3E22966DABCDF0A932580A77070B /* RAImagePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RAImagePicker.xcconfig; sourceTree = "<group>"; };
+		F2D537BFB0BDCD8414B745E708FF113D /* RAImagePickerSelectionPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RAImagePickerSelectionPolicy.swift; sourceTree = "<group>"; };
+		F3F0CD5A71E53E31395A2A5326C55731 /* RAImagePickerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RAImagePickerDelegate.swift; sourceTree = "<group>"; };
+		F7184D21C7E0AD0DDC632877EB9A9581 /* RALivePhotoCameraCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RALivePhotoCameraCell.swift; sourceTree = "<group>"; };
+		F783BB63C3075A1568AAF73656D8215A /* RAImagePickerDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RAImagePickerDataSource.swift; sourceTree = "<group>"; };
+		FF3CEE2804DCB896EECFA3AC1EADAE99 /* Pods-RAImagePicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RAImagePicker_Example-dummy.m"; sourceTree = "<group>"; };
+		FFB9BDBBA54F52F30F1D6055558B61F8 /* RAVideoDataOuptutSampleBufferDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RAVideoDataOuptutSampleBufferDelegate.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		221BE42875503F2A10EEEA19336A95CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04D17AE8A3BDBF654C15BD41836664B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B871EB15F61564E267A9308BF9D793DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2D927694CCB338C419A4EE703AEB2D /* AVFoundation.framework in Frameworks */,
+				D64CA79CD40F42F7B1FB90C7AEE52FFD /* Foundation.framework in Frameworks */,
+				1F50E3D1F1E1C3AF28E4AA8418FE8494 /* Photos.framework in Frameworks */,
+				545D77670C3791A22B19641D7893292D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D70B081A8E29A7BB1A548DCC3F9C6EE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5B7DFDBF635BCDA89DB3D6C1FFF5B54 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B42EF7632C353380CB4CF0511651013 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				B0579844E29857B718A985546B4B59FA /* RAAVPreviewView.swift */,
+				D24AA183359CAD126BF5D104E686924D /* RAVideoCaptureDelegate.swift */,
+				FFB9BDBBA54F52F30F1D6055558B61F8 /* RAVideoDataOuptutSampleBufferDelegate.swift */,
+			);
+			name = Video;
+			path = Video;
+			sourceTree = "<group>";
+		};
+		0DCCB17F75BF165029136086F55D6A87 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C3612D5AD072F328BB5D94A0D5247801 /* RAActionCell.swift */,
+				BFCEAD3F3DC66640E4E265CF6FF4A007 /* RAActionCell.xib */,
+				D41D17586713E638081969F7009D2F2A /* RAAssetCell.swift */,
+				2A291C286D4F9BA261356D7E8546D631 /* RAImagePickerView.swift */,
+				9CC10939BEC96B535DA9357E1F609500 /* RAImagePickerView.xib */,
+				F7184D21C7E0AD0DDC632877EB9A9581 /* RALivePhotoCameraCell.swift */,
+				D6F815571D8F3F27AA1D2B04EA36D9E8 /* RALivePhotoCameraCell.xib */,
+				0C38A7FC678E62C060A90CC5C35805F6 /* RAVideoCameraCell.swift */,
+				F0923F28391F0388D6E5FC5DE6873D50 /* RAVideoCameraCell.xib */,
+			);
+			name = Cells;
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38A08B6C7A3607AD9D31D8E1FC6AD75D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		172449E532EEB2286E0DA12259542D0C /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				29F33CF7F4E54DB1884ADE5A3BA13A15 /* RACaptureSettings.swift */,
+				2671353A3E3C35DD51ABB306A31C636E /* RAImagePickerController.swift */,
+				73BA47BF37F5E6C0BC15D1ACCDAEF50B /* Layout */,
+			);
+			name = Public;
+			path = RAImagePicker/Classes/Public;
+			sourceTree = "<group>";
+		};
+		1B23F3A77E26D935E2FCC7EB4DBF72E1 /* Processing */ = {
+			isa = PBXGroup;
+			children = (
+				5F6E18E2147D9B300E4CAB72DA9D19BD /* RAImagePicker-Bridging-Header.h */,
+				030B5664784C03896834D355DB956444 /* RAImagePickerAssetModel.swift */,
+				F783BB63C3075A1568AAF73656D8215A /* RAImagePickerDataSource.swift */,
+				F3F0CD5A71E53E31395A2A5326C55731 /* RAImagePickerDelegate.swift */,
+				3BBA7BCE3C95CAA48625290EF93DD259 /* RAImagePickerLayout.swift */,
+				F2D537BFB0BDCD8414B745E708FF113D /* RAImagePickerSelectionPolicy.swift */,
+				79DC5B03F8E8D2D613046B068125C286 /* RALayoutModel.swift */,
+				15DA3BFD25DBF6D2908BB95DDD8D3451 /* UIImageEffects.h */,
+				799482B6FBED8D489CA3BA4C35DC9409 /* UIImageEffects.m */,
+			);
+			name = Processing;
+			path = RAImagePicker/Classes/Processing;
+			sourceTree = "<group>";
+		};
+		1CBB457096E374A994A3714BCF15AB40 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				3F7CB2B80B83B0832324F975C12C1C13 /* RACaptureSession.swift */,
+				57F9D01B0C1A20CD7B6F74D5E03FFE04 /* Camera */,
+				0B42EF7632C353380CB4CF0511651013 /* Video */,
+			);
+			name = Media;
+			path = RAImagePicker/Classes/Media;
+			sourceTree = "<group>";
+		};
+		3095D316C21856A73107D6E9133FE094 /* Pods-RAImagePicker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A693104218D2B62B43036C11F73AC8DD /* Info.plist */,
+				1AD14EFB77A4738CA078AE90D6B3BF21 /* Pods-RAImagePicker_Example.modulemap */,
+				0B96F36590B988E3E0CF6C5B9094316A /* Pods-RAImagePicker_Example-acknowledgements.markdown */,
+				15B363BD450B0C53E83C65DDF274BC55 /* Pods-RAImagePicker_Example-acknowledgements.plist */,
+				FF3CEE2804DCB896EECFA3AC1EADAE99 /* Pods-RAImagePicker_Example-dummy.m */,
+				972E2347E02B1FF66C9804BD6155078C /* Pods-RAImagePicker_Example-frameworks.sh */,
+				446C59980336A1230F9806B7AE9A1426 /* Pods-RAImagePicker_Example-resources.sh */,
+				C4F07649CDCCD1A046FDB63A1673741F /* Pods-RAImagePicker_Example-umbrella.h */,
+				4DBB5BBC60DF5D2CF836D4A95C6103D8 /* Pods-RAImagePicker_Example.debug.xcconfig */,
+				1552378526C203323721A7A00C5772E3 /* Pods-RAImagePicker_Example.release.xcconfig */,
+			);
+			name = "Pods-RAImagePicker_Example";
+			path = "Target Support Files/Pods-RAImagePicker_Example";
+			sourceTree = "<group>";
+		};
+		37E60E051D65A0D75B34CF8528711318 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3095D316C21856A73107D6E9133FE094 /* Pods-RAImagePicker_Example */,
+				FD9E21D5413A360B0486CC61CE03AEB0 /* Pods-RAImagePicker_Example-RAImagePicker_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		38A08B6C7A3607AD9D31D8E1FC6AD75D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				453666E08D6A04BF370C9A5B534C7FBD /* AVFoundation.framework */,
+				3ED174831868E50CF4F67DCD37F35DB8 /* Foundation.framework */,
+				C7EAB36CD391CEF03EEBA9B1783CBCE4 /* Photos.framework */,
+				F1EBE38E0A5A4E1BBBC3B48AB791C941 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		41698B164B31665784B220D0B9905815 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6F9C57B6D9DEC02AF804055AB91B4BD0 /* Info.plist */,
+				3D74DBEBDCCE4E603CBAE6B548293D05 /* RAImagePicker.modulemap */,
+				F21E3E22966DABCDF0A932580A77070B /* RAImagePicker.xcconfig */,
+				6E4682282B3D5B1A744D73E8F9EE2D4F /* RAImagePicker-dummy.m */,
+				DF22830EF444B88F320071BA67601256 /* RAImagePicker-prefix.pch */,
+				5244DF2B503476B1992E923F6AD59725 /* RAImagePicker-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RAImagePicker";
+			sourceTree = "<group>";
+		};
+		57F9D01B0C1A20CD7B6F74D5E03FFE04 /* Camera */ = {
+			isa = PBXGroup;
+			children = (
+				333F65A3F2FB15ADF9EA2A760B8CC8D5 /* RAPhotoCaptureDelegate.swift */,
+			);
+			name = Camera;
+			path = Camera;
+			sourceTree = "<group>";
+		};
+		73BA47BF37F5E6C0BC15D1ACCDAEF50B /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				429030FEF4D09FC6D66CDDEA29DAAD7A /* RAAppearance.swift */,
+				7C10FCAD6FBD00D678787453C2EE8488 /* RACameraCollectionViewCell.swift */,
+				7B5A283E539BACB2EB0EF106189AD0FB /* RACellRegistrator.swift */,
+				2CBC04E92A258D319BCCF33367723E82 /* RALayoutConfiguration.swift */,
+			);
+			name = Layout;
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C65CC651DC608110DD30258A5006D890 /* Development Pods */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				8103CA8D6EF3E1733FC9B7A6376106B1 /* Products */,
+				37E60E051D65A0D75B34CF8528711318 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F26D101A14C7E33E69F7E262E505757 /* RAImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				1CBB457096E374A994A3714BCF15AB40 /* Media */,
+				1B23F3A77E26D935E2FCC7EB4DBF72E1 /* Processing */,
+				172449E532EEB2286E0DA12259542D0C /* Public */,
+				C4735A0D0D26CAC04F9D3A84296558F6 /* Resources */,
+				41698B164B31665784B220D0B9905815 /* Support Files */,
+				9E3C7C3283F2871616EFB13E70E204E1 /* Views */,
+			);
+			name = RAImagePicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8103CA8D6EF3E1733FC9B7A6376106B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE7C10F1FFDFF3613937CE143B27BC5E /* Pods_RAImagePicker_Example.framework */,
+				027F013640574045E59659A7ACB8AB44 /* Pods_RAImagePicker_Example_RAImagePicker_Tests.framework */,
+				94C4DDA0A5C4156EA26FEAA6D9ADC0ED /* RAImagePicker.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E3C7C3283F2871616EFB13E70E204E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6D392881A7DE1C4CCF161B358C623370 /* RACarvedLabel.swift */,
+				012EAC120AE225A21D9A9938A3791567 /* RARecordButton.swift */,
+				176075875C66A0A89D72E5B3FF3B3AC5 /* RARecordDurationLabel.swift */,
+				99CA08E9AB7FC53A18751E2F409DDA28 /* RAShutterButton.swift */,
+				B655C02BBD87D116DE3C76637BE6C121 /* RAStationaryButton.swift */,
+				0DCCB17F75BF165029136086F55D6A87 /* Cells */,
+			);
+			name = Views;
+			path = RAImagePicker/Classes/Views;
+			sourceTree = "<group>";
+		};
+		C4735A0D0D26CAC04F9D3A84296558F6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D0F0C9B77BD33EF37885D21429940007 /* Media.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C65CC651DC608110DD30258A5006D890 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F26D101A14C7E33E69F7E262E505757 /* RAImagePicker */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		FD9E21D5413A360B0486CC61CE03AEB0 /* Pods-RAImagePicker_Example-RAImagePicker_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CA042F2313B6BFB6CDACD6470219C2D0 /* Info.plist */,
+				485DF686C05E69048D1B442307CD79E1 /* Pods-RAImagePicker_Example-RAImagePicker_Tests.modulemap */,
+				071D4162EB57540830699F5554FD4FE9 /* Pods-RAImagePicker_Example-RAImagePicker_Tests-acknowledgements.markdown */,
+				32F118E055E00334BB34C1DAB4BC4BA1 /* Pods-RAImagePicker_Example-RAImagePicker_Tests-acknowledgements.plist */,
+				5275F41F505A279E75081CAF8D7AF1B3 /* Pods-RAImagePicker_Example-RAImagePicker_Tests-dummy.m */,
+				CBCB86D32D2B4C5621DBDF0C5050185A /* Pods-RAImagePicker_Example-RAImagePicker_Tests-frameworks.sh */,
+				56C147839C40FA08086031A31715196A /* Pods-RAImagePicker_Example-RAImagePicker_Tests-resources.sh */,
+				5DE691CFB0D513E3A6646791A86F3AAA /* Pods-RAImagePicker_Example-RAImagePicker_Tests-umbrella.h */,
+				BB43A7D9341651CC4594FD4424B81B8B /* Pods-RAImagePicker_Example-RAImagePicker_Tests.debug.xcconfig */,
+				B949100F342147861102E6039FA86E18 /* Pods-RAImagePicker_Example-RAImagePicker_Tests.release.xcconfig */,
+			);
+			name = "Pods-RAImagePicker_Example-RAImagePicker_Tests";
+			path = "Target Support Files/Pods-RAImagePicker_Example-RAImagePicker_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2F547CC07B8177289F6C7A99417EED10 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC9958B79089804159EF6C4E00CC4094 /* RAImagePicker-Bridging-Header.h in Headers */,
+				E888697072E19B5BE1C2638C30D0C8AC /* RAImagePicker-umbrella.h in Headers */,
+				7932BBC6388A9D43CF1A8FCAD98601A8 /* UIImageEffects.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		800CA1B25CCBC9C0F2FBC04EA3ACAD55 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				945547F21CDC3DF8936EC634159A6C26 /* Pods-RAImagePicker_Example-RAImagePicker_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4F41F36CA0CAFC05172F3261B9F1120 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECD5DC8B102B91798BC21DA1B1AC7EDF /* Pods-RAImagePicker_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0FD23A9D090AC0751F50CBC8FAB6F391 /* Pods-RAImagePicker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62DC62B7DC723FBD832BE57821F96663 /* Build configuration list for PBXNativeTarget "Pods-RAImagePicker_Example" */;
+			buildPhases = (
+				14D36402622F04E37CBE0057687CCF0C /* Sources */,
+				D70B081A8E29A7BB1A548DCC3F9C6EE8 /* Frameworks */,
+				D4F41F36CA0CAFC05172F3261B9F1120 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C963B4318CFDBB49A5D4140DD3B04AEE /* PBXTargetDependency */,
+			);
+			name = "Pods-RAImagePicker_Example";
+			productName = "Pods-RAImagePicker_Example";
+			productReference = BE7C10F1FFDFF3613937CE143B27BC5E /* Pods_RAImagePicker_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3DF0C348AE867B5C584E0E352010AB9E /* RAImagePicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCFC48EDB3E65CBC7A0BF582444EF656 /* Build configuration list for PBXNativeTarget "RAImagePicker" */;
+			buildPhases = (
+				9F2A7E56F9D3B3131951BED8231DDF2B /* Sources */,
+				B871EB15F61564E267A9308BF9D793DE /* Frameworks */,
+				2F547CC07B8177289F6C7A99417EED10 /* Headers */,
+				224919E961A88038E81B8F681394F6A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RAImagePicker;
+			productName = RAImagePicker;
+			productReference = 94C4DDA0A5C4156EA26FEAA6D9ADC0ED /* RAImagePicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CBDDFB1443AEED2D0F9A47038670F93C /* Pods-RAImagePicker_Example-RAImagePicker_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B54A556281E2FEF9A86C22E796E88AB8 /* Build configuration list for PBXNativeTarget "Pods-RAImagePicker_Example-RAImagePicker_Tests" */;
+			buildPhases = (
+				F55E74697692E829D6FBBED9DD55DB4D /* Sources */,
+				221BE42875503F2A10EEEA19336A95CF /* Frameworks */,
+				800CA1B25CCBC9C0F2FBC04EA3ACAD55 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D4965934B6CA8419D5E76253B62B60AE /* PBXTargetDependency */,
+			);
+			name = "Pods-RAImagePicker_Example-RAImagePicker_Tests";
+			productName = "Pods-RAImagePicker_Example-RAImagePicker_Tests";
+			productReference = 027F013640574045E59659A7ACB8AB44 /* Pods_RAImagePicker_Example_RAImagePicker_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8103CA8D6EF3E1733FC9B7A6376106B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0FD23A9D090AC0751F50CBC8FAB6F391 /* Pods-RAImagePicker_Example */,
+				CBDDFB1443AEED2D0F9A47038670F93C /* Pods-RAImagePicker_Example-RAImagePicker_Tests */,
+				3DF0C348AE867B5C584E0E352010AB9E /* RAImagePicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		224919E961A88038E81B8F681394F6A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B11E5DA9E2E0DBFC6CECFD894B917A3E /* Media.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14D36402622F04E37CBE0057687CCF0C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C34FED521F84B2FD86A4CE790575DA66 /* Pods-RAImagePicker_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F2A7E56F9D3B3131951BED8231DDF2B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B644B04F71CFA6B465D0FEAB3172AD01 /* RAActionCell.swift in Sources */,
+				4A97D9EBA4EA94C28331866527B853EA /* RAActionCell.xib in Sources */,
+				C1A37852744F6472F4C6685274F1ACE0 /* RAAppearance.swift in Sources */,
+				EC80D39C9C9C49A6DCFD9A242F32D3F3 /* RAAssetCell.swift in Sources */,
+				698410A3F4CA88F70A7AD4A248B3DDFE /* RAAVPreviewView.swift in Sources */,
+				71CB49F92537204CC55CCAF0637FFD4F /* RACameraCollectionViewCell.swift in Sources */,
+				FF92F0F0A1A90AA2A59ECFEC8B2E1F92 /* RACaptureSession.swift in Sources */,
+				8325FAFFB91D7C9722A26F4AA3CD18E2 /* RACaptureSettings.swift in Sources */,
+				A41194CD3F9F169439F53A053F23EB5A /* RACarvedLabel.swift in Sources */,
+				58FF98CCA686E44763059E9A4A1263A8 /* RACellRegistrator.swift in Sources */,
+				82CAF67A2B3ACDAB172AA71C56158FBE /* RAImagePicker-dummy.m in Sources */,
+				79A2AAA0E63DEE44D65F98B9346EE771 /* RAImagePickerAssetModel.swift in Sources */,
+				CB844CA2C9FA9568292ABAD10392AEFE /* RAImagePickerController.swift in Sources */,
+				B463701DABB8D3C672C0EB3A12BC228A /* RAImagePickerDataSource.swift in Sources */,
+				5216D6D3FB28ACA3786224218D9A9CAE /* RAImagePickerDelegate.swift in Sources */,
+				7F27C131EAEB23B17B24769F88F3DE8B /* RAImagePickerLayout.swift in Sources */,
+				B4AC385A1EA5CF6F15EC5BAED710EA6A /* RAImagePickerSelectionPolicy.swift in Sources */,
+				B6064FCC2DE64D85C868E56858E64E31 /* RAImagePickerView.swift in Sources */,
+				B540D7CF63220452AD9B5E20B601A63C /* RAImagePickerView.xib in Sources */,
+				FFFB627DFFA9B0563AD4C5F0D82C38D1 /* RALayoutConfiguration.swift in Sources */,
+				FC2C690CDE28B164AA971517CC05C294 /* RALayoutModel.swift in Sources */,
+				8F3B5AD786055A1A8EADCD8963DBBA62 /* RALivePhotoCameraCell.swift in Sources */,
+				F936BB33D8EFFC93246BB7F02B404BAE /* RALivePhotoCameraCell.xib in Sources */,
+				F325516ECD7FFE952509F73FDF3025F7 /* RAPhotoCaptureDelegate.swift in Sources */,
+				D1C6897EB7D9897F9714D2CB389764B0 /* RARecordButton.swift in Sources */,
+				63FC6C98744E513486D0236B068560F6 /* RARecordDurationLabel.swift in Sources */,
+				379063A315B93CF500555496ED2095B4 /* RAShutterButton.swift in Sources */,
+				1C7DECBF674D93309BD315187BACDA46 /* RAStationaryButton.swift in Sources */,
+				E908BBD7C8819B438625A6D648E3B1EE /* RAVideoCameraCell.swift in Sources */,
+				6FAF898E7403487F7E134F76CCE9AA98 /* RAVideoCameraCell.xib in Sources */,
+				CC91012E69CB5293F1BE77CA52724A88 /* RAVideoCaptureDelegate.swift in Sources */,
+				58A9EF8041E4211FEAB357257E5A5F9E /* RAVideoDataOuptutSampleBufferDelegate.swift in Sources */,
+				73FE51197B9DB1954BA629D36BAC1CDC /* UIImageEffects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F55E74697692E829D6FBBED9DD55DB4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFE824FE4BEA2B2ED0D2A2CA1B84340 /* Pods-RAImagePicker_Example-RAImagePicker_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C963B4318CFDBB49A5D4140DD3B04AEE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RAImagePicker;
+			target = 3DF0C348AE867B5C584E0E352010AB9E /* RAImagePicker */;
+			targetProxy = 4FFEEB81D0FB5205A52D488B383C0B70 /* PBXContainerItemProxy */;
+		};
+		D4965934B6CA8419D5E76253B62B60AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RAImagePicker;
+			target = 3DF0C348AE867B5C584E0E352010AB9E /* RAImagePicker */;
+			targetProxy = B449F361A214117637D00DDE4622797A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2E7B9FE93744DEEE44D7C74E77747FFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F21E3E22966DABCDF0A932580A77070B /* RAImagePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RAImagePicker/RAImagePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RAImagePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RAImagePicker/RAImagePicker.modulemap";
+				PRODUCT_NAME = RAImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3145F7776026C955C680AA9D5D05615E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1552378526C203323721A7A00C5772E3 /* Pods-RAImagePicker_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RAImagePicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RAImagePicker_Example/Pods-RAImagePicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RAImagePicker_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		40E2B5C9CB4B76CA4FA6F73C518AF82E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB43A7D9341651CC4594FD4424B81B8B /* Pods-RAImagePicker_Example-RAImagePicker_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RAImagePicker_Example-RAImagePicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RAImagePicker_Example-RAImagePicker_Tests/Pods-RAImagePicker_Example-RAImagePicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RAImagePicker_Example_RAImagePicker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C07ED8089F70A31B83996A8910D7F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		98F29E7567052F62660DDD7069ADF73C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		9D35C7685F0B3DA6181DD207B78DE1BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DBB5BBC60DF5D2CF836D4A95C6103D8 /* Pods-RAImagePicker_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RAImagePicker_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RAImagePicker_Example/Pods-RAImagePicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RAImagePicker_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C4FB1F188A8C3DF41EF0FE1CFA32942C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B949100F342147861102E6039FA86E18 /* Pods-RAImagePicker_Example-RAImagePicker_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RAImagePicker_Example-RAImagePicker_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RAImagePicker_Example-RAImagePicker_Tests/Pods-RAImagePicker_Example-RAImagePicker_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RAImagePicker_Example_RAImagePicker_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EF3C66CCE7A929219EB0D0FEC436BD04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F21E3E22966DABCDF0A932580A77070B /* RAImagePicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RAImagePicker/RAImagePicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RAImagePicker/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RAImagePicker/RAImagePicker.modulemap";
+				PRODUCT_NAME = RAImagePicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C07ED8089F70A31B83996A8910D7F18 /* Debug */,
+				98F29E7567052F62660DDD7069ADF73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62DC62B7DC723FBD832BE57821F96663 /* Build configuration list for PBXNativeTarget "Pods-RAImagePicker_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D35C7685F0B3DA6181DD207B78DE1BD /* Debug */,
+				3145F7776026C955C680AA9D5D05615E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B54A556281E2FEF9A86C22E796E88AB8 /* Build configuration list for PBXNativeTarget "Pods-RAImagePicker_Example-RAImagePicker_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40E2B5C9CB4B76CA4FA6F73C518AF82E /* Debug */,
+				C4FB1F188A8C3DF41EF0FE1CFA32942C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCFC48EDB3E65CBC7A0BF582444EF656 /* Build configuration list for PBXNativeTarget "RAImagePicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3C66CCE7A929219EB0D0FEC436BD04 /* Debug */,
+				2E7B9FE93744DEEE44D7C74E77747FFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

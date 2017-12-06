@@ -13,7 +13,14 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		7DD86A4C304B6EEFDD9138FD /* Pods_RAImagePicker_Example_RAImagePicker_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF07B795A3C4509CE7124668 /* Pods_RAImagePicker_Example_RAImagePicker_Tests.framework */; };
 		948E23D0870A5C4CC8EA570D /* Pods_RAImagePicker_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D259854E603E56F11E6614B1 /* Pods_RAImagePicker_Tests.framework */; };
+		9CDECF111FD670D700CFADCB /* ActionItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDECF0F1FD670D700CFADCB /* ActionItemCell.swift */; };
+		9CDECF121FD670D700CFADCB /* ActionItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CDECF101FD670D700CFADCB /* ActionItemCell.xib */; };
+		9CDECF1D1FD6B64400CFADCB /* GalleryViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDECF1B1FD6B64400CFADCB /* GalleryViewCell.swift */; };
+		9CDECF1E1FD6B64400CFADCB /* GalleryViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CDECF1C1FD6B64400CFADCB /* GalleryViewCell.xib */; };
+		9CDECF211FD6B65500CFADCB /* VideosViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CDECF1F1FD6B65500CFADCB /* VideosViewCell.swift */; };
+		9CDECF221FD6B65500CFADCB /* VideosViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CDECF201FD6B65500CFADCB /* VideosViewCell.xib */; };
 		F5C982015ED3F75512EEF5F4 /* Pods_RAImagePicker_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D18980A3EF1699D652BC6A7 /* Pods_RAImagePicker_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,10 +35,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		235B700931A2A9BEF3B903B7 /* Pods-RAImagePicker_Example-RAImagePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAImagePicker_Example-RAImagePicker_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAImagePicker_Example-RAImagePicker_Tests/Pods-RAImagePicker_Example-RAImagePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		23C24BAF112D9795AFCE67AE /* Pods-RAImagePicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAImagePicker_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAImagePicker_Example/Pods-RAImagePicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2D18980A3EF1699D652BC6A7 /* Pods_RAImagePicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAImagePicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D6CA387960914C6B3FD0576 /* Pods-RAImagePicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAImagePicker_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAImagePicker_Example/Pods-RAImagePicker_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5DF62059A692291B7FCD4AAD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5961D6CCDB08049D0D616DFD /* Pods-RAImagePicker_Example-RAImagePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAImagePicker_Example-RAImagePicker_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAImagePicker_Example-RAImagePicker_Tests/Pods-RAImagePicker_Example-RAImagePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DF62059A692291B7FCD4AAD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* RAImagePicker_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RAImagePicker_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,8 +51,15 @@
 		607FACE51AFB9204008FA782 /* RAImagePicker_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RAImagePicker_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		8B467BB1800FF67B2B8AAA63 /* RAImagePicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RAImagePicker.podspec; path = ../RAImagePicker.podspec; sourceTree = "<group>"; };
-		BE0030BBAF3516745CE2B72A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8B467BB1800FF67B2B8AAA63 /* RAImagePicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RAImagePicker.podspec; path = ../RAImagePicker.podspec; sourceTree = "<group>"; };
+		9CDECF0F1FD670D700CFADCB /* ActionItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionItemCell.swift; sourceTree = "<group>"; };
+		9CDECF101FD670D700CFADCB /* ActionItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActionItemCell.xib; sourceTree = "<group>"; };
+		9CDECF1B1FD6B64400CFADCB /* GalleryViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewCell.swift; sourceTree = "<group>"; };
+		9CDECF1C1FD6B64400CFADCB /* GalleryViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GalleryViewCell.xib; sourceTree = "<group>"; };
+		9CDECF1F1FD6B65500CFADCB /* VideosViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosViewCell.swift; sourceTree = "<group>"; };
+		9CDECF201FD6B65500CFADCB /* VideosViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideosViewCell.xib; sourceTree = "<group>"; };
+		AF07B795A3C4509CE7124668 /* Pods_RAImagePicker_Example_RAImagePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAImagePicker_Example_RAImagePicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE0030BBAF3516745CE2B72A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		D259854E603E56F11E6614B1 /* Pods_RAImagePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RAImagePicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECD6C950FE334B3DA24DBDA5 /* Pods-RAImagePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAImagePicker_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RAImagePicker_Tests/Pods-RAImagePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		FD655F6D2D416D2FA5ED0353 /* Pods-RAImagePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RAImagePicker_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RAImagePicker_Tests/Pods-RAImagePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -63,6 +79,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				948E23D0870A5C4CC8EA570D /* Pods_RAImagePicker_Tests.framework in Frameworks */,
+				7DD86A4C304B6EEFDD9138FD /* Pods_RAImagePicker_Example_RAImagePicker_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +91,7 @@
 			children = (
 				2D18980A3EF1699D652BC6A7 /* Pods_RAImagePicker_Example.framework */,
 				D259854E603E56F11E6614B1 /* Pods_RAImagePicker_Tests.framework */,
+				AF07B795A3C4509CE7124668 /* Pods_RAImagePicker_Example_RAImagePicker_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -104,6 +122,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				9CDECF131FD6B5A500CFADCB /* Custom */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -148,6 +167,19 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		9CDECF131FD6B5A500CFADCB /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				9CDECF0F1FD670D700CFADCB /* ActionItemCell.swift */,
+				9CDECF101FD670D700CFADCB /* ActionItemCell.xib */,
+				9CDECF1B1FD6B64400CFADCB /* GalleryViewCell.swift */,
+				9CDECF1C1FD6B64400CFADCB /* GalleryViewCell.xib */,
+				9CDECF1F1FD6B65500CFADCB /* VideosViewCell.swift */,
+				9CDECF201FD6B65500CFADCB /* VideosViewCell.xib */,
+			);
+			name = Custom;
+			sourceTree = "<group>";
+		};
 		CB028AD58C75F507724EBE1C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,6 +187,8 @@
 				4D6CA387960914C6B3FD0576 /* Pods-RAImagePicker_Example.release.xcconfig */,
 				ECD6C950FE334B3DA24DBDA5 /* Pods-RAImagePicker_Tests.debug.xcconfig */,
 				FD655F6D2D416D2FA5ED0353 /* Pods-RAImagePicker_Tests.release.xcconfig */,
+				5961D6CCDB08049D0D616DFD /* Pods-RAImagePicker_Example-RAImagePicker_Tests.debug.xcconfig */,
+				235B700931A2A9BEF3B903B7 /* Pods-RAImagePicker_Example-RAImagePicker_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -215,10 +249,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = W797LTQ4Q7;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = W797LTQ4Q7;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -248,7 +284,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CDECF221FD6B65500CFADCB /* VideosViewCell.xib in Resources */,
+				9CDECF121FD670D700CFADCB /* ActionItemCell.xib in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				9CDECF1E1FD6B64400CFADCB /* GalleryViewCell.xib in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
@@ -276,7 +315,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAImagePicker_Tests/Pods-RAImagePicker_Tests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAImagePicker_Example-RAImagePicker_Tests/Pods-RAImagePicker_Example-RAImagePicker_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		261465770AA11E225696DFA6 /* [CP] Check Pods Manifest.lock */ = {
@@ -290,7 +329,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-RAImagePicker_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-RAImagePicker_Example-RAImagePicker_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -336,13 +375,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RAImagePicker_Example-RAImagePicker_Tests/Pods-RAImagePicker_Example-RAImagePicker_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RAImagePicker/RAImagePicker.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAImagePicker.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAImagePicker_Tests/Pods-RAImagePicker_Tests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RAImagePicker_Example-RAImagePicker_Tests/Pods-RAImagePicker_Example-RAImagePicker_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E6AAD1AE05D514B63055CC7A /* [CP] Check Pods Manifest.lock */ = {
@@ -371,7 +413,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				9CDECF211FD6B65500CFADCB /* VideosViewCell.swift in Sources */,
+				9CDECF111FD670D700CFADCB /* ActionItemCell.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				9CDECF1D1FD6B64400CFADCB /* GalleryViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,11 +503,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -504,10 +550,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -517,6 +564,7 @@
 			baseConfigurationReference = 23C24BAF112D9795AFCE67AE /* Pods-RAImagePicker_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W797LTQ4Q7;
 				INFOPLIST_FILE = RAImagePicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -532,6 +580,7 @@
 			baseConfigurationReference = 4D6CA387960914C6B3FD0576 /* Pods-RAImagePicker_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W797LTQ4Q7;
 				INFOPLIST_FILE = RAImagePicker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -544,8 +593,9 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECD6C950FE334B3DA24DBDA5 /* Pods-RAImagePicker_Tests.debug.xcconfig */;
+			baseConfigurationReference = 5961D6CCDB08049D0D616DFD /* Pods-RAImagePicker_Example-RAImagePicker_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = W797LTQ4Q7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -565,8 +615,9 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD655F6D2D416D2FA5ED0353 /* Pods-RAImagePicker_Tests.release.xcconfig */;
+			baseConfigurationReference = 235B700931A2A9BEF3B903B7 /* Pods-RAImagePicker_Example-RAImagePicker_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = W797LTQ4Q7;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
