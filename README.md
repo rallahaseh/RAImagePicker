@@ -208,6 +208,11 @@ navigationController.present(imagePicker, animated: true, completion: nil)
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+## References
+
+- [Photos Framework](https://developer.apple.com/documentation/photos)
+- [UIImageEffects](https://github.com/devxoul/ImageEffects)
+
 ## Requirements
 
 - Xcode +9.0
