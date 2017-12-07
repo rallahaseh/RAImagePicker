@@ -211,7 +211,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## References
 
 - [Photos Framework](https://developer.apple.com/documentation/photos)
-- [UIImageEffects](https://github.com/devxoul/ImageEffects)
+- [devxoul - UIImage Category](https://github.com/devxoul/ImageEffects)
 
 ## Requirements
 
