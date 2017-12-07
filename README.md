@@ -120,10 +120,22 @@ imagePicker.layoutConfiguration.showsDefaultGalleryItem = true
 
 2. Register Action Cells
 Now there's multiple ways to register your custom cells
-- [x] Using nib ```swift imagePicker.registerNibForActionItems(CustomNib) ```
-- [x] Using class ```swift imagePicker.registerCellClassForActionItems(CustomCell) ```
-- [x] For specific item(nib) ```swift imagePicker.cellRegistrator.register(nib: CustomNib, forActionItemAt: 0) ```
-- [x] For specific item(class) ```swift imagePicker.cellRegistrator.register(nib: CustomCell, forActionItemAt: 0) ```
+- [x] Using nib 
+```swift 
+imagePicker.registerNibForActionItems(CustomNib) 
+```
+- [x] Using class 
+```swift 
+imagePicker.registerCellClassForActionItems(CustomCell) 
+```
+- [x] For specific item(nib) 
+```swift 
+imagePicker.cellRegistrator.register(nib: CustomNib, forActionItemAt: 0) 
+```
+- [x] For specific item(class) 
+```swift 
+imagePicker.cellRegistrator.register(nib: CustomCell, forActionItemAt: 0) 
+```
 
 3. Configure Delegate
 ```swift
